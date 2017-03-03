@@ -1,0 +1,65 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f9f509d7df0bd728e4fd07ebea9101de",
+    "packages": [
+        {
+            "name": "mightypork/phpmodbus",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MightyPork/phpmodbus.git",
+                "reference": "4256b6cef7cad32efb7570581b27da109a31ae46"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MightyPork/phpmodbus/zipball/4256b6cef7cad32efb7570581b27da109a31ae46",
+                "reference": "4256b6cef7cad32efb7570581b27da109a31ae46",
+                "shasum": ""
+            },
+            "require": {
+                "ext-sockets": "*",
+                "php": "^5.3.2 || ^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHPModbus\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Honza Krakora",
+                    "email": "krakora.jan@googlemail.com"
+                },
+                {
+                    "name": "Ondřej Hruška",
+                    "email": "ondra@ondrovo.com"
+                }
+            ],
+            "description": "PhpModbus with namespaces and updated to PHP 7",
+            "keywords": [
+                "modbus",
+                "phpmodbus"
+            ],
+            "time": "2016-11-20 10:29:09"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "mightypork/phpmodbus": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

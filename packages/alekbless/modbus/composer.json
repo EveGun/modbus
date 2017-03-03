@@ -1,0 +1,19 @@
+{
+    "name": "alekbless/modbus",
+    "description": "A Laravel 5 modbus package.",
+    "authors": [
+        {
+            "name": "Aleksander Bless",
+            "email": "aleksander@sdirect.no"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/alekbless/phpmodbus"
+        }
+    ],
+    "require": {
+        "mightypork/phpmodbus": "dev-master"
+    }
+}
